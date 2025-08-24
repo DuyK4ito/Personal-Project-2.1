@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Common */
+.main-content {
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+:root {
+    --primary-color: #1ebfc1;
+}
+
+/* ================== Header ================== */
+.header {
+    padding-top: 28px;
+}
+
+.header.fixed {
+    position: sticky;
+    top: -20px;
+}
+
+.header__body {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.header__navbar {
+    margin-left: 215px;
+}
+
+.navbar__list-items {
+    display: flex;
+}
+
+.navbar__item {
+    padding: 8px 20px;
+    color: #2f3a3b;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.navbar__item a {
+    color: #2f3a3b;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.navbar__item a:hover {
+    text-shadow: 0.5px 0.5px #232b2c;
+}
+
+.cta__btn {
+    margin-left: 156px;
+}
+
+.sign-in__btn {
+    color: #494949;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 24px;
+}
+
+.sign-in__btn:hover {
+    text-shadow: 0.5px 0.5px #232b2c;
+}
+
+.sign-up__btn {
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: normal;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 1px solid var(--primary-color);
+}
+
+.sign-up__btn:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+}
+
+/* ================== Hero ================== */
