@@ -507,3 +507,198 @@ body {
     font-size: 1.4rem;
     font-weight: 400;
 }
+
+/* ================== Stats ================== */
+.stats {
+    padding: 30px 0;
+    margin-top: 339px;
+}
+
+.stats__number {
+    display: flex;
+    justify-content: center;
+}
+
+.stats__number__item:nth-child(2) {
+    margin-left: 202px;
+}
+
+.stats__number__item:nth-child(3) {
+    margin-left: 217px;
+}
+
+.stats__number__item .num {
+    color: var(--heading-color);
+    font-size: 6.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.stats__number__item .desc {
+    margin-top: 30px;
+    color: var(--secondary-color);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.stats__lower {
+    margin-top: 264px;
+    display: flex;
+}
+
+.stats__quotes .open-quotes {
+    margin-top: 37px;
+}
+
+.stats__quotes .stats__quotation {
+    width: 419px;
+    margin-top: 27px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.stats__quotation-author::before {
+    content: "";
+    position: absolute;
+    left: -13px;
+    top: 6px;
+    width: 8px;
+    height: 2px;
+    background-color: #070707;
+}
+
+.stats__quotation-author {
+    position: relative;
+    margin-left: 13px;
+    margin-top: 33px;
+    color: var(--secondary-color);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.stats__quotation-author .stats__student-name {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.stats__lower .arrow-active {
+    display: flex;
+    column-gap: 30px;
+    margin-top: 52px;
+}
+
+.stats__lower .stats-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #2ac9bf;
+}
+
+.stats__lower .stats-cta:hover {
+    opacity: 0.8;
+}
+
+.stats__students {
+    margin-left: 90px;
+}
+
+/* ================== Stats ================== */
+.admit-section {
+    margin-top: 206px;
+    padding: 76px 0 88px;
+    background-color: #def6f5;
+}
+
+.admit-section .body {
+    display: flex;
+    align-items: center;
+}
+
+.admit__left .title {
+    color: #070707;
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.admit__left .desc {
+    margin-top: 32px;
+    color: var(--secondary-color);
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.admit__right .btn {
+    margin-left: 410px;
+}
+
+/* ================== Stats ================== */
+
+.footer {
+    margin-top: 81px;
+    padding: 50px 0;
+}
+
+.footer .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__info .title {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer__info .group {
+    margin-top: 36px;
+}
+
+.footer__info .social.group {
+    margin-top: 18px;
+}
+
+.footer__info .social.group li {
+    display: flex;
+    align-items: center;
+}
+
+.footer__info .group li:not(:first-child) {
+    margin-top: 19px;
+}
+
+.footer__info .group li a {
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.footer__info .group li:hover a {
+    color: #666;
+    opacity: 0.9;
+    text-decoration: underline;
+}
+
+.social.group .social-icon {
+    margin-right: 9px;
+}
+
+.footer__copyright {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__copyright .copyright {
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
